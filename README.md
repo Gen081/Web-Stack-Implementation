@@ -4,13 +4,13 @@
 This project will be focus on the LAMP Stack.
 
 
-## What is a Technology stack?
+# What is a Technology stack?
 
 Also called “solutions stack”, a technology stack consists of programming languages, frameworks, a database, front-end tools, back-end tools, and application connected via APIs.
 
 There are different stack of technologies available: LAMP, LEMP, MERN, and MEAN. The right tech stack can help drive  a company’s product to success, making the product easier to build and ensuring it evolves alongside customer needs.
 
-This project will be focus on the LAMP Stack.
+This project will be focus on the LAMP Stack in AWS.
 
 ## What is LAMP Stack?
 LAMP (Linux, Apache, MySQL, PHP) is a proven set of software for delivering high-performance web applications. Each component contributes essential capabilities to the stack:
@@ -65,6 +65,34 @@ AWS is one the major Cloud Service Providers, and it provides a free virtual ser
 ![](pics/ec2fromterminal.png)
 
 
-### Apache Installation and Firewall Update
+### Installing Apache
+
+Install Apache using Ubuntu’s package manager ‘apt’:
+
+![](pics/apacheinstall.png)
+
+
+
+Before we can receive any traffic by our Web Server, we need to open TCP port 80, so we need to add a rule to EC2 configuration to open inbound connection through port 80:
+
+![](pics/apacheinstall1.png)
+
+
+The web server is now correctly installed and accessible through your firewall.
+
+![](pics/apache2page.png)
+
+
+### Installing MySQL
+
+As the web server is up and running, time to install a Database Management System (DBMS) to store and manage data for the website. With the PHP environment, MySQL is well suited.
+
+![](mysql-install2.png)
+
+
+
+
+
+
 
 
