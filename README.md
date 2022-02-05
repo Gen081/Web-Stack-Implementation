@@ -102,7 +102,36 @@ It is an open source scripting language that works with Apache to help developer
 ![](pics/php-install.png)
 
 
+### Creating a Virtual Host 
 
+This virtual host will be on the domain called projectlamp.
+
+![](pics/virtualhost.png) 
+
+
+A blank file is opened. Press the "i" keyboard to enter the insert mode and paste the below
+
+![](pics/virtualhost1.png) 
+
+
+To test the content in your browser
+
+![](pics/virtualhost2.png) 
+
+
+
+## Enabling PHP
+
+This directory index setting must be changed allowing PHP supersede the html file
+
+![](pics/php-enable.png)
+
+![](pics/php-enable1.png)
+
+It is important to verify any changes made as follow:
+refresh/reload your public ip address and the below should appear
+
+![](pics/php-enable2.png)
 
 
 
