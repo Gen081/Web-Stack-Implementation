@@ -87,7 +87,20 @@ The web server is now correctly installed and accessible through your firewall.
 
 As the web server is up and running, time to install a Database Management System (DBMS) to store and manage data for the website. With the PHP environment, MySQL is well suited.
 
-![](mysql-install2.png)
+![](pics/mysql-install2.png)
+
+
+Log into the MySQL console
+
+![](pics/mysql-install3.png)
+
+
+### Installing PHP
+
+It is an open source scripting language that works with Apache to help developers create dynamic web pages. 
+
+![](pics/php-install.png)
+
 
 
 
